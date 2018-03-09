@@ -1,0 +1,15 @@
+/* color variables */
+$color: #3D3D3D;
+$bcolor: #6D6D6D;
+
+body {
+    color: $color;
+    background-color: $bcolor;
+}
+p {
+    color: $color;
+}
+
+h2 {
+    background-color: $bcolor;
+}

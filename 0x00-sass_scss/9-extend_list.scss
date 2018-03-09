@@ -1,0 +1,18 @@
+/* extensions */
+%shared-font {
+    font-size: 12px;
+}
+
+.info {
+    @extend %shared-font;
+}
+
+.success {
+    @extend %shared-font;
+    color: #FF0000;
+}
+
+.warning {
+    @extend %shared-font;
+    color: #00FF00;
+}
